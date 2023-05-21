@@ -27,3 +27,15 @@ Amadej_Adamczyk1=BusinessContact(position="Technik fiskalny",company="Parada but
 Adrianna_Czarnecka=BaseContact(name="Adrianna",surname="Czarnecka",number=+485115162,mail="AdriannaCzarnecka@armyspy.com")
 Adrianna_Czarnecka1=BusinessContact(position="Programista C++",company="Targ Coffeys",work_number=+485125174)
 print(Jacek_Król.name,Jacek_Król.surname,Jacek_Król.number,Jacek_Król.mail)
+print(Jacek_Król1.position,Jacek_Król1.company,Jacek_Król1.work_number)
+def contact(Jacek_Król):
+    print("Wybieram numer",Jacek_Król.number,"i dzwonię do",Jacek_Król.name,Jacek_Król.surname)
+contact(Jacek_Król)
+def work_contact(Jacek_Król1):
+    print("Wybieram służbowy numer",Jacek_Król1.work_number,"do",Jacek_Król.name,Jacek_Król.surname)
+work_contact(Jacek_Król1)
+label_length_Jacek_Król=len("JacekKról")
+print(label_length_Jacek_Król)
+def contact(Danuta_Górska):
+    print(Danuta_Górska.number)
+contact(Danuta_Górska)
